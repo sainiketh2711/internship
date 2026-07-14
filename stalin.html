@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Search Bar</title>
+</head>
+<body>
+
+    <!-- Search Bar -->
+    <label for="search">SEARCH:</label>
+    <input type="search" id="search" name="search" placeholder="Search here">
+    <button type="button">Search</button>
+
+    <br><br>
+
+    <form action="">
+        <label for="fullname">NAME:</label>
+        <input type="text" placeholder="ENTER YOUR NAME" name="fullname" id="fullname" required><br><br>
+
+        <label for="email">EMAIL:</label>
+        <input type="email" placeholder="ENTER YOUR EMAIL" name="email" id="email"><br><br>
+
+        <label for="phnumber">CONTACT:</label>
+        <input type="number" placeholder="ENTER YOUR NUMBER" name="phnumber" id="phnumber"><br><br>
+
+        <label for="psw">PASSWORD:</label>
+        <input type="password" placeholder="ENTER YOUR PASSWORD" minlength="8" name="psw" id="psw"><br><br>
+
+        <label for="age">AGE:</label>
+        <input type="number" placeholder="ENTER YOUR AGE" min="18" max="120" name="age" id="age"><br><br>
+
+        <label>GENDER:</label>
+        <input type="radio" name="gender" value="male">MALE
+        <input type="radio" name="gender" value="female">FEMALE
+        <br><br>
+
+        <label>LANGUAGES:</label>
+        <input type="checkbox" name="languages" value="HTML">HTML<br>
+        <input type="checkbox" name="languages" value="C++">C++<br>
+        <input type="checkbox" name="languages" value="PYTHON">PYTHON<br>
+        <input type="checkbox" name="languages" value="JAVA">JAVA
+        <br><br>
+
+        <label for="country">COUNTRY:</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label for="message">MESSAGE:</label><br>
+        <textarea name="message" id="message" rows="4" cols="50"></textarea><br><br>
+
+        <label for="resume">UPLOAD RESUME:</label>
+        <input type="file" name="resume" id="resume"><br><br>
+
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+
+</body>
+</html>
